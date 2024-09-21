@@ -1,7 +1,12 @@
 import React from "react";
+import Sidebar from "./components/Sidebar";
 
 const Admin = () => {
-  return <div>This is admin page</div>;
+  return (
+    <>
+      <Sidebar />
+    </>
+  );
 };
 
 export default Admin;
