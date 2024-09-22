@@ -6,7 +6,9 @@ import { NextUIProvider } from "@nextui-org/react";
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <NextUIProvider>
-      <App />
+      <main className="ligth text-foreground bg-background">
+        <App />
+      </main>
     </NextUIProvider>
   </StrictMode>,
 )
